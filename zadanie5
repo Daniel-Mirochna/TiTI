@@ -1,0 +1,52 @@
+www.onet.pl
+
+
+traceroute z jakiegoś powodu zwraca mi tylko gwiazdki jak poniżej:
+
+traceroute www.onet.pl
+traceroute: Warning: www.onet.pl has multiple addresses; using 13.227.146.19
+traceroute to www.onet.pl (13.227.146.19), 64 hops max, 40 byte packets
+ 1  10.135.102.242 (10.135.102.242)  7.178 ms  4.651 ms  4.304 ms
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+
+traceroute-online
+
+Hop	Hostname	IP	AS	Network	Country	Avg (ms)
+1	10.204.3.120	10.204.3.120				
+2	10.204.35.13	10.204.35.13				
+3	10.204.32.2	10.204.32.2				
+4	lo0-0.gw4.atl1.us.linode.com	74.207.239.106	AKAMAI-LINODE-AP Akamai Connected Cloud, SG	74.207.224.0/20		
+5	ae45.r22.atl01.ien.aloha-jmannil.netarch.akamai.com	23.203.144.36	AKAMAI-ASN1, NL	23.203.144.0/20		
+6	ae4.r22.atl01.mag.aloha-jmannil.netarch.akamai.com	23.192.0.98	AKAMAI-ASN1, NL	23.192.0.0/11		
+7	ae1.r21.atl01.icn.aloha-jmannil.netarch.akamai.com	23.192.0.67	AKAMAI-ASN1, NL	23.192.0.0/11		
+8	ae17.r22.dfw01.icn.aloha-jmannil.netarch.akamai.com	23.193.113.23	AKAMAI-ASN1, NL	23.192.0.0/11		
+9	ae1.r21.dfw02.mag.aloha-jmannil.netarch.akamai.com	23.209.172.76	AKAMAI-ASN1, NL	23.192.0.0/11		
+10	ae3.r21.dfw01.ien.aloha-jmannil.netarch.akamai.com	23.209.172.105	AKAMAI-ASN1, NL	23.192.0.0/11		
+11	???	???				
+12	???	???				
+13	???	???				
+14	???	???				
+15	???	???				
+16	???	???				
+17	15.230.157.26	15.230.157.26				
+18	server-18-154-253-79.dfw56.r.cloudfront.net	18.154.253.79	AMAZON-02, US	18.154.252.0/23		
+
+Dnschecker https://dnschecker.org/#A/www.onet.pl
+serwery ulokowane np. w San Jose w USA, Lipsku w Niemczech, Sao Paulo w Brazylii, Cullinan w RPA Seulu w Południowej Korei.
+
+
+
+www.nasa.com
