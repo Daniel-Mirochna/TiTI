@@ -75,3 +75,27 @@ Dnschecker
 serwery www ulokowane w tych samych miejscach co www.onet.pl
 
 
+
+www.goggle.com
+
+traceroute
+
+traceroute www.goggle.com
+traceroute: unknown host www.goggle.com
+
+traceroute-online
+
+Traceroute Error
+Error: Unable to resolve target domain. Please check the domain name and try again.
+
+Dnschecker
+
+występuje jeden serwer w Singapurze z danymi jak poniżej:
+id: 48360
+opcode: QUERY
+status: NOERROR
+flags: QR RD
+;; QUESTION SECTION:
+;www.goggle.com.		IN A
+;; ANSWER SECTION:
+www.goggle.com.		60 IN A	0.0.0.0
