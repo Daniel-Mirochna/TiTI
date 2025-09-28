@@ -15,12 +15,6 @@ traceroute to www.onet.pl (13.227.146.19), 64 hops max, 40 byte packets
  7  * * *
  8  * * *
  9  * * *
-10  * * *
-11  * * *
-12  * * *
-13  * * *
-14  * * *
-15  * * *
 
 traceroute-online
 
@@ -50,3 +44,34 @@ serwery ulokowane np. w San Jose w USA, Lipsku w Niemczech, Sao Paulo w Brazylii
 
 
 www.nasa.com
+
+traceroute www.nasa.com
+
+traceroute to www.nasa.com (185.53.177.52), 64 hops max, 40 byte packets
+ 1  10.135.102.242 (10.135.102.242)  5.718 ms  6.691 ms  4.782 ms
+ 2  * * *
+ 3  * * *
+ 4  * * *
+
+traceroute-online
+
+
+Hop	Hostname	IP	AS	Network	Country	Avg (ms)
+1	10.204.3.120	10.204.3.120				
+2	10.204.35.13	10.204.35.13				
+3	10.204.32.2	10.204.32.2				
+4	lo0-0.gw4.atl1.us.linode.com	74.207.239.106	AKAMAI-LINODE-AP Akamai Connected Cloud, SG	74.207.224.0/20		
+5	he.tieatl.telx.com	206.126.110.75				
+6	???	???				
+7	???	???				
+8	mnsi.e0-3.switch7.chi1.he.net	184.105.32.118	HURRICANE, US	184.105.32.0/20		
+9	ndcolo-gw3.wndson17.mnsi.net	216.8.136.134	MANAGEDNETWORK, CA	216.8.128.0/19		
+10	yyz-re-1_bd1301.core.nextdimensioninc.com	142.147.67.18	ND-CA-ASN, CA	142.147.67.0/24		
+11	104.247.84.102	104.247.84.102	ND-CA-ASN, CA	104.247.84.0/24		
+12	104.247.80.26	104.247.80.26	TEAMINTERNET-CA-AS, DE	104.247.80.0/22		
+13	104.247.81.52	104.247.81.52	TEAMINTERNET-CA-AS, DE	104.247.80.0/22		
+
+Dnschecker
+serwery www ulokowane w tych samych miejscach co www.onet.pl
+
+
