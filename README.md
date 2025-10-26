@@ -1,2 +1,2 @@
-# Laboratorium
-Technologie i techniki internetowe
+# Technologie i techniki internetowe
+Laboratorium
