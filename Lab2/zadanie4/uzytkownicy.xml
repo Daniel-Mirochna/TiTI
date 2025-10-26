@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uzytkownicy>
+    <uzytkownik id="1">
+        <imie>Adam</imie>
+        <nazwisko>Nowak</nazwisko>
+        <plec>m</plec>
+        <wiek>60</wiek>
+        <kontakt>
+            <email>adam@nowak.pl</email>
+            <telefon>+48 111 222 444</telefon>
+        </kontakt>
+    </uzytkownik>
+</uzytkownicy>
