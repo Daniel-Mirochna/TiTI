@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE uzytkownicy [
+    <!ELEMENT uzytkownicy (uzytkownik+)>
+
+    <!ELEMENT uzytkownik (imie, nazwisko, plec, wiek, kontakt)>
+    <!ATTLIST uzytkownik id #REQUIRED>
+
+    <!ELEMENT kontakt (email, telefon?)>
+
+    <!ELEMENT imie (#PCDATA)>
+    <!ELEMENT nazwisko (#PCDATA)>
+    <!ELEMENT plec (#PCDATA)>
+    <!ELEMENT wiek (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telefon (#PCDATA)>
+]>
 <uzytkownicy>
     <uzytkownik id="1">
         <imie>Adam</imie>
